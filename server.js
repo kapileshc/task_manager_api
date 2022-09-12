@@ -1,4 +1,4 @@
 const express = require('express')
 const app = express()
-
-app.listen(5000,()=>{console.log("server is running successfully")})
+const port = 3000
+app.listen(port,()=>{console.log(`server is running successfully at ${port}`)})
